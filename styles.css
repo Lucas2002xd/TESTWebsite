@@ -1,0 +1,119 @@
+@importurl('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  max-width: 100%;
+  text-transform: uppercase;
+}
+
+/*-------VIDEO-------*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+/*-------SubBois-------*/
+.container2 {
+  text-align: center;
+}
+
+.subtitles {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.sub-button1 {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .9rem;
+  padding: .5em;
+  color: grey
+}
+
+.sub-button1:hover,
+.sub-button:focus {
+  color: black;
+}
+
+/*-------HEADER------- */
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 1em;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .9rem;
+  padding: .5em;
+  color: grey;
+}
+
+nav a:hover,
+nav a:focus {
+  color: black;
+}
+
+/*-------HOME-HERO-------*/
+
+
+
+.autonomous {
+  background: url('WebPics/WaymoPic')
+}
